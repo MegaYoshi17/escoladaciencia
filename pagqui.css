@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header logo */
+header#logo{
+    background-image:linear-gradient(to bottom, #5A73D6, #4A5EB0, #2F3C70);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/*main*/
+main#conteudo{
+    background-color: lightgray;
+    font-family: 'Inter', sans-serif;
+} 
+h2{
+    display: block;
+    text-align: center;
+}
+h3{
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+}
+ul{
+    padding-left: 50px;
+}
+div{
+    background-color: white;
+    padding-top: 50px;
+}
+h5{
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+.image01{
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+.demonstraçao{
+    margin: auto;
+    display: block;
+}
+.video{
+    margin: auto;
+    display: block;
+    background-color: gray;
+    padding: 30px;
+}
+/* Footer */ 
+footer{
+    text-align: center;
+    background-color: #404040;
+    color: white;
+}

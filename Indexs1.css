@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header logo */
+header#logo{
+    background-image:linear-gradient(to bottom, #5A73D6, #4A5EB0, #2F3C70);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/*main*/
+a{
+ color: black;
+}
+a:hover{
+    color:red;
+    transition: .2s;
+}
+/* sumário */
+#sumario{
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.lista{
+    font-size: large;
+    padding-top: 20px;
+    padding-left: 70px;
+}
